@@ -11,15 +11,6 @@
     align-items: center;
 }
 
-.logo__vector {
-    padding-bottom: 20px;
-}
-
-.logo__vector1 {
-    position: relative;
-    right: 4px;
-}
-
 .nav__link {
     @include text('Circular Std',450,18px,23px,center);
     color: $mainCLR;
