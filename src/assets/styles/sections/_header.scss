@@ -1,3 +1,6 @@
+header {
+    background: $bcg
+}
 
 .header {
     @include customFlex;
