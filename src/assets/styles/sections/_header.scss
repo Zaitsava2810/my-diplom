@@ -11,17 +11,27 @@
     align-items: center;
 }
 
+.nav__item {
+    margin-left: 70px
+}
 
 .nav__link {
     @include text('Circular Std',450,18px,23px,center);
     color: $mainCLR;
-    margin-left: 70px;
+    
+}
+
+.active__link {
+    @include text('Circular Std',bold,18px,23px,center);
+    color: $mainCLR;
+    width: 115px;
 }
 
 .active {
     @include text('Circular Std',bold,18px,23px,center);
     color: $mainCLR;
-    margin-left: 242px;
+    width: 57px;
+    margin-left: 172px;
 }
 
 .active:hover {
@@ -33,7 +43,7 @@
     @include border;
     color: $basCLR;
     padding: 16px 33px;
-    margin-left: 40px;
+    width: 130px;
 }
 
 .nav__btn:hover {
@@ -41,5 +51,4 @@
     @include border_hover;
     color:  $CLR;
     padding: 16px 33px;
-    margin-left: 40px;
 }
