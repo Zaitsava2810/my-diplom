@@ -27,6 +27,10 @@
     width: 115px;
 }
 
+.active__link:hover {
+    color: $CLR;
+}
+
 .active {
     @include text('Circular Std',bold,18px,23px,center);
     color: $mainCLR;
