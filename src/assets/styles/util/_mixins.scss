@@ -1,0 +1,14 @@
+/*=======HEADER=======*/
+@mixin customFlex($dis,$fd,$jc) {
+    display: $dis;
+    flex-direction: $fd;
+    justify-content: $jc;
+}
+
+@mixin text ($ff,$fw,$fs,$lh,$ta) {
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height:$lh;
+    text-align: $ta;
+}

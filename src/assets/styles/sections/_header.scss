@@ -1,0 +1,44 @@
+@import "./util/mixins";
+
+.header {
+    @include customFlex(flex,row,space-between);
+    align-items: center;
+    margin-top: 37px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo__vector {
+    padding-bottom: 20px;
+}
+
+.logo__vector1 {
+    position: relative;
+    right: 5px;
+}
+
+.nav__link {
+    @include text('Circular Std',450,18px,23px,center);
+    color: #161828;
+    margin-left: 70px;
+}
+
+.active {
+    @include text('Circular Std',bold,18px,23px,center);
+    color: #9166F0;
+    margin-left: 242px;
+}
+
+.nav__btn {
+    @include text('Circular Std',500,18px,23px,center);
+    color: #FFF;
+    background: #9166F0;
+    box-shadow: 0px 15px 25px rgba(115, 82, 208, 0.3);
+    border-radius: 10px;
+    padding: 16px 33px;
+    margin-left: 40px;
+}
