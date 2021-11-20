@@ -28,8 +28,12 @@
 
 .active {
     @include text('Circular Std',bold,18px,23px,center);
-    color: $CLR;
+    color: $mainCLR;
     margin-left: 242px;
+}
+
+.active:hover {
+    color: $CLR;
 }
 
 .nav__btn {
