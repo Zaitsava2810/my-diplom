@@ -1,6 +1,6 @@
 
 .header {
-    @include customFlex(flex,row,space-between);
+    @include customFlex;
     align-items: center;
     margin-top: 37px;
 }

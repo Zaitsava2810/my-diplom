@@ -1,8 +1,8 @@
 /*=======HEADER=======*/
-@mixin customFlex($dis,$fd,$jc) {
-    display: $dis;
-    flex-direction: $fd;
-    justify-content: $jc;
+@mixin customFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @mixin text ($ff,$fw,$fs,$lh,$ta) {
