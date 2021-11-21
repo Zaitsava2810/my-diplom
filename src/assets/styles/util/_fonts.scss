@@ -1,64 +1,28 @@
 /*======FONTS==========*/
-
 @font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/thin.ttf");
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/ultra-light.ttf");
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/light.ttf");
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/regular.ttf");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/medium.ttf");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/semi-bold.ttf");
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/bold.ttf");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/extra-bold.ttf");
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("/assets/fonts/gilroy/black.ttf");
+    font-family: 'Circular Std';
+    src: url("../fonts/CircularStd-Black.ttf");
     font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+        font-family: 'Circular Std';
+        src: url("../fonts/CircularStd-Medium.ttf");
+        font-weight: 500;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url("../fonts/CircularStd-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url("../fonts/CircularStd-Book.ttf");
+    font-weight: normal;
     font-style: normal;
 }

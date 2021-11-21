@@ -1,0 +1,61 @@
+header {
+    background: $bcg
+}
+
+.header {
+    @include customFlex;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__item {
+    margin-left: 70px
+}
+
+.nav__link {
+    @include text('Circular Std',450,18px,23px,center);
+    color: $mainCLR;
+    
+}
+
+.active__link {
+    @include text('Circular Std',bold,18px,23px,center);
+    color: $mainCLR;
+    width: 115px;
+}
+
+.active__link:hover {
+    color: $CLR;
+}
+
+.active {
+    @include text('Circular Std',bold,18px,23px,center);
+    color: $mainCLR;
+    width: 57px;
+    margin-left: 172px;
+}
+
+.active:hover {
+    color: $CLR;
+}
+
+.nav__btn {
+    @include text('Circular Std',500,18px,23px,center);
+    @include border;
+    color: $basCLR;
+    padding: 16px 33px;
+    width: 130px;
+}
+
+.nav__btn:hover {
+    @include text('Circular Std',500,18px,23px,center);
+    @include border_hover;
+    color:  $CLR;
+    padding: 16px 33px;
+}

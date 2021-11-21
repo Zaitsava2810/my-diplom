@@ -1,6 +1,6 @@
 /*=======GLOBAL=======*/
-@import "var";
 @import "fonts";
+@import "mixins";
 
 html {
     font-size: 10px;
@@ -36,7 +36,6 @@ ul {
 
 img {
     max-width: 100%;
-    width: 100%;
 }
 
 body {
@@ -45,11 +44,11 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     overflow-x: hidden;
-    font-family: Roboto, sans-serif;
+    font-family: 'Circular Std Book';
 }
 
 .container {
-    max-width: 1400px; // ширина контента плюс паддинги
+    max-width: 1430px; 
     margin: 0 auto;
     padding-right: 10px;
     padding-left: 10px;
