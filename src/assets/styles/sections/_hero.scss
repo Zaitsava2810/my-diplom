@@ -2,7 +2,7 @@
     background: linear-gradient(90deg, #FFEEFE 0%, #F5F7FF 51.56%, #E4F2FE 100%);
     padding-bottom: 256px; 
     padding-top: 234px;
-
+   
     &__description {
         position: relative; 
         margin-left: 245px; 
@@ -25,12 +25,40 @@
         justify-content:left;
         align-items:center;
         margin-top: 60px;
+
+        .btn {
+            @include text ('Circular Std',500,16px,20px,center);
+            color: $CLR;
+            background: $basCLR;
+            box-shadow: 0px 10px 25px rgba(210, 177, 207, 0.3);
+            border-radius: 10px;
+            padding: 20px 30px;
+            margin-right: 40px;
+        }
+
+        .circle {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #9166F0;
+            border-radius: 100%;
+            box-sizing: border-box;
+        }
+        
+        .triangle {
+            position: relative;
+            width: 14px;
+            height: 16px;
+            border: 12px solid transparent;
+            border-left: 12px solid #9166F0;
+            right: 33px;
+        }
+        
     }
 
     &__text {
         @include text__hero ('Circular Std',normal,500,16px,20px);
-        color: $mainCLR;
-        margin-top: 20px;
+        color: $mainCLR;  
+        margin-left: 20px;
     }
 
     &__img {
@@ -46,40 +74,19 @@
     }
 }
 
-.btn {
-    @include text ('Circular Std',500,16px,20px,center);
-    color: $CLR;
-    background: $basCLR;
-    box-shadow: 0px 10px 25px rgba(210, 177, 207, 0.3);
-    border-radius: 10px;
-    padding: 20px 30px;
-    margin-right: 40px;
-}
-
-.circle {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #9166F0;
-    border-radius: 100%;
-    box-sizing: border-box;
-}
-
-.triangle {
-    position: relative;
-    width: 14px;
-    height: 16px;
-    border: 12px solid transparent;
-    border-left: 12px solid #9166F0;
-    right: 33px;
-}
-
 .figure__1 {
     @include figure (103px,103px,100%,$grad,block,absolute,78px,206px);
     filter: blur(15px); 
 }
 
 .figure__2 {
-    @include figure (671px,671px,0 0 0 100%,$bcg2,block,absolute,1334px,-10px);
+    height: 671px;
+    width: 575px;
+    background: #E0E9FE;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .figure__3 {
