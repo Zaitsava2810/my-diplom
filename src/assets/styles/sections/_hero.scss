@@ -80,24 +80,14 @@
 }
 
 .figure__2 {
-    height: 671px;
-    width: 575px;
-    background: #E0E9FE;
-    border-bottom-left-radius: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.figure__3 {
     @include figure (29px,29px,100%,$grad2,block,absolute,1350px,162px);
 }
 
-.figure__4 {
+.figure__3 {
     @include figure (147px,145px,100%,$grad2,block,absolute,1615.89px,235.02px);
 }
 
-.figure__5 {
+.figure__4 {
     width: 153px;
     height: 158px;
     filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.1));
