@@ -2,8 +2,27 @@
     margin-bottom: 200px;
 }
 
-.line__three {
+.line__foure {
+   width: 1410px;
     height: 1px;
     background: #E3E9F0;
-    margin-bottom: 283px;
+    margin-bottom: 213px;
+    
+}
+
+.works__item {
+    width: 604px;
+    height: 588px;
+    margin-left: 806px;
+}
+
+.works__title {
+    @include text__hero ('Circular Std',normal,900,52px,66px);    
+    color: $mainCLR;
+}
+
+.works__subtitle {
+    @include text__hero ('Circular Std',normal,500,18px,23px);    
+    color: $clrSUB;
+    margin-top: 15px;
 }
