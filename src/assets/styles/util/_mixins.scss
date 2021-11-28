@@ -48,7 +48,7 @@
 
 
 /*=======CHOOSE=======*/
-@mixin circle ($wi,$he,$br,$bckg,$mr) {
+@mixin forms ($wi,$he,$br,$bckg,$mr) {
     width:$wi;
     height: $he;
     border-radius: $br;
