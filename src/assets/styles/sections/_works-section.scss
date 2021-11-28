@@ -26,3 +26,43 @@
     color: $clrSUB;
     margin-top: 15px;
 }
+
+.keys__item {
+    width: 600px;
+    height: 94px;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+
+.keys__text {
+    margin-left: 85px;
+}
+
+.keys__title {
+    @include text__hero ('Circular Std',normal,bold,24px,30px);    
+    color: $CLR6;
+}
+
+.keys__subtitle {
+    @include text__hero ('Circular Std',normal,450,18px,28px);    
+    color: $clrSUB;
+    margin-top: 10px;
+}
+
+.keys__img {
+    @include forms (60px,60px,100%,$bcg6,0);   
+    position: absolute;
+    top: 0px;
+}
+
+.keys__one {
+    margin-top: 18.02px;
+    margin-left: 17px;
+}
+
+.line__keys {
+    position: absolute;
+    top: 50px;
+    left: 32px;
+}
