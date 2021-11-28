@@ -17,6 +17,10 @@
     margin-bottom: 90px;
 }
 
+.choose__item {
+    @include customFlex;
+}
+
 //choose__inner: elements (one + two)
 .choose__inner {
     width: 450px;
@@ -128,7 +132,7 @@
     box-shadow: 0px 10px 15px rgba(254, 108, 157, 0.3);
     position: absolute;
     top: 0;
-    left: 152.61px;
+    right: 140px;
 }
 
 h4 {
@@ -170,6 +174,13 @@ h4 {
     margin: 0 0 0 20px;
 }
 
+.card__mini {
+    @include forms (149px,42.07px,5px,$CLR,0);
+    position: absolute;
+    left: 150.5px; 
+    top:157px;
+}
+
 .cube {
     @include forms (21.91px,22.79px,3px,$basCLR,9.64px);
     box-shadow: 0px 20px 35px rgba(190, 204, 215, 0.25);
@@ -178,7 +189,7 @@ h4 {
 .cube__img {
     width:12,5px;
     height:13px;
-    margin: 5.43px 5.43px 4.36px 5.11px;
+    margin: 5px;
 }
 
 .line__three {
