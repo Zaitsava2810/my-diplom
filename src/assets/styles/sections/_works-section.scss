@@ -1,0 +1,86 @@
+.works {
+    margin-bottom: 200px;
+}
+
+.line__foure {
+   width: 1410px;
+    height: 1px;
+    background: #E3E9F0;
+    margin-bottom: 213px;
+    
+}
+
+.works__item {
+    width: 604px;
+    height: 588px;
+    margin-left: 806px;
+}
+
+.works__title {
+    @include text__hero ('Circular Std',normal,900,52px,66px);    
+    color: $mainCLR;
+}
+
+.works__subtitle {
+    @include text__hero ('Circular Std',normal,500,18px,23px);    
+    color: $clrSUB;
+    margin-top: 15px;
+}
+
+.keys__item {
+    width: 600px;
+    height: 94px;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+
+.keys__text {
+    margin-left: 85px;
+}
+
+.keys__title {
+    @include text__hero ('Circular Std',normal,bold,24px,30px);    
+    color: $CLR6;
+}
+
+.keys__subtitle {
+    @include text__hero ('Circular Std',normal,450,18px,28px);    
+    color: $clrSUB;
+    margin-top: 10px;
+}
+
+.keys__img {
+    @include forms (60px,60px,100%,$bcg6,0);   
+    position: absolute;
+    top: 0px;
+}
+
+.keys__photo {
+    margin-top: 18.02px;
+    margin-left: 17px;
+}
+
+.line__keys {
+    position: absolute;
+    top: 50px;
+    left: 32px;
+}
+
+.works__inner {
+    position: relative;
+    margin-top: -525px;
+}
+
+.inner__element {
+    @include forms (600px,600px,100%,$CLRhover,0)
+}
+
+.inner__photo {
+    width: 731px;
+    height: 753px;
+    border-radius: 0 0 0 50%;
+    position: absolute;
+    top: -152px;
+    left: -120px;
+}
