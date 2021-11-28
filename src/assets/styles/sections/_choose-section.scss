@@ -25,8 +25,11 @@
 .choose__inner {
     width: 450px;
     height: 396px;
-    position: relative;
     z-index: 1;
+}
+
+.card__shell {
+    position: relative;
 }
 
 .element__one {
@@ -132,7 +135,7 @@
     box-shadow: 0px 10px 15px rgba(254, 108, 157, 0.3);
     position: absolute;
     top: 0;
-    right: 140px;
+    right:140px;
 }
 
 h4 {
