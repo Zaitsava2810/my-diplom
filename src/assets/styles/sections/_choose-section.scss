@@ -137,3 +137,52 @@ h4 {
     text-align: center;
     margin-top: 4.8px 
 }
+
+// choose__inner: (card VISA)
+.card {
+    @include forms (149px,142px,5px,$grad3,0);
+    position: absolute;
+    left: 150.5px; 
+}
+
+.card__title {
+    @include text__hero ('Circular Std',normal,900,20x,25px);
+    letter-spacing: 3px;
+    color: $basCLR;
+    margin: 15px 0 0 20px;
+}
+
+.card__subtitle {
+    @include text__hero ('Circular Std',normal,450,10x,13px);
+    color: $basCLR;
+    margin: 24px 0 19px 20px;
+}
+
+.card__subtitle2 {
+    @include text__hero ('Circular Std',normal,450,10x,13px);
+    color: $basCLR;
+    margin: 0 0 0 20px;
+}
+
+.card__text {
+    @include text__hero ('Circular Std',bold,450,14px,18px);
+    color: $basCLR;
+    margin: 0 0 0 20px;
+}
+
+.cube {
+    @include forms (21.91px,22.79px,3px,$basCLR,9.64px);
+    box-shadow: 0px 20px 35px rgba(190, 204, 215, 0.25);
+}
+
+.cube__img {
+    width:12,5px;
+    height:13px;
+    margin: 5.43px 5.43px 4.36px 5.11px;
+}
+
+.line__three {
+    @include forms (60.48px,7.01px,2px,$basCLR,0 0 0 41.19px);
+    position: absolute;  
+    top: 17.53px;
+}
