@@ -66,3 +66,21 @@
     top: 50px;
     left: 32px;
 }
+
+.works__inner {
+    position: relative;
+    margin-top: -525px;
+}
+
+.inner__element {
+    @include forms (600px,600px,100%,$CLRhover,0)
+}
+
+.inner__photo {
+    width: 731px;
+    height: 753px;
+    border-radius: 0 0 0 50%;
+    position: absolute;
+    top: -152px;
+    left: -120px;
+}
