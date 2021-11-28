@@ -1,0 +1,213 @@
+.choose {
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.title {
+    @include text__hero ('Circular Std',normal,900,52px,66px);
+    text-align: center;
+    color: $mainCLR;
+}
+
+.subtitle {
+    @include text__hero ('Circular Std',normal,450,18px,23px);
+    text-align: center;
+    color: $clrSUB;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
+
+.choose__item {
+    @include customFlex;
+}
+
+//choose__inner: elements (one + two)
+.choose__inner {
+    width: 450px;
+    height: 396px;
+    z-index: 1;
+}
+
+.card__shell {
+    position: relative;
+}
+
+.element__one {
+    width: 170px;
+    height: 32.13px;
+    background: $bcg3;
+    border-radius: 10px 10px 0 0;
+
+    position: absolute;
+    left: 140px;
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.elmnt__circle:first-child {
+    @include forms (9.81px,9.64px,100%,$CLR,11.24px 8.17px 0 17.98px);
+}
+
+.elmnt__circle:nth-child(2) {
+    @include forms (9.81px,9.64px,100%,$CLR3,11.24px 8.17px 0 0);
+}
+
+.elmnt__circle:nth-child(3) {
+    @include forms (9.81px,9.64px,100%,$CLR4,11.24px 0 0 0);
+}
+
+.element__two {
+    width: 170px;
+    height: 200px;
+    background-color: $basCLR;
+    position: absolute;
+    left: 140px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px rgba(190, 204, 215, 0.25);
+}
+
+.star {
+    width: 101.35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 34.33px;
+    margin-top: 52.21px;
+}
+
+.icon {
+    @include forms (37px, 37px, 100%, $bcg4, 12px 0 0 66px);
+}
+
+.icon__img {
+    width: 17px;
+    height: 18px; 
+    margin-top: 8.84px;
+    margin-left: 10.22px;
+}
+
+.line__one {
+    @include forms (27.79px, 4.82px, 2px, $bcg4, 12.05px 0 0 71.11px);
+}
+
+.line__two {
+    @include forms (47.4px, 4.82px, 2px, $bcg4, 6.43px 0 0 61.3px);
+}
+
+.elmnt__btn {
+    @include forms (71.92px, 20.08px, 5px, $bcg5, 11.24px 0 0 49.04px);
+    border: 1px solid $CLR5;
+}
+
+.inner__text {
+    padding-top: 250px;
+}
+
+.inner__title {
+    @include text__hero ('Circular Std',normal,bold,32px,40px);
+    text-align: center;
+    color: $mainCLR;  
+}
+
+.inner__subtitle {
+    @include text__hero ('Circular Std',normal,450,18px,23px);
+    text-align: center;
+    color: $clrSUB; 
+    margin-top: 25px; 
+}
+
+// choose__inner: (circle card)
+.circle__card {
+    @include forms (200px,200px,100%,$basCLR,0);
+    box-shadow: 0px 10px 35px rgba(191, 200, 214, 0.25);
+    position: absolute;
+    left: 125px;    
+}
+
+.circle__img {
+    @include forms (150px,140px,0 0 0 50%,none,50px 0 0 5px);
+}
+
+.mini__circle {
+    @include forms (36.95px,36.95px,100%,$bcg6,0);
+    box-shadow: 0px 10px 15px rgba(254, 108, 157, 0.3);
+    position: absolute;
+    top: 0;
+    right:140px;
+}
+
+h4 {
+    @include text__hero ('Circular Std',normal,bold,24px,30px);
+    color: $basCLR;
+    text-align: center;
+    margin-top: 4.8px 
+}
+
+// choose__inner: (card VISA)
+.card {
+    @include forms (149px,142px,5px,$grad3,0);
+    position: absolute;
+    left: 150.5px; 
+}
+
+.card__title {
+    @include text__hero ('Circular Std',normal,900,20x,25px);
+    letter-spacing: 3px;
+    color: $basCLR;
+    margin: 15px 0 0 20px;
+}
+
+.card__subtitle {
+    @include text__hero ('Circular Std',normal,450,10x,13px);
+    color: $basCLR;
+    margin: 24px 0 19px 20px;
+}
+
+.card__subtitle2 {
+    @include text__hero ('Circular Std',normal,450,10x,13px);
+    color: $basCLR;
+    margin: 0 0 0 20px;
+}
+
+.card__text {
+    @include text__hero ('Circular Std',bold,450,14px,18px);
+    color: $basCLR;
+    margin: 0 0 0 20px;
+}
+
+.card__mini {
+    @include forms (149px,42.07px,5px,$CLR,0);
+    position: absolute;
+    left: 150.5px; 
+    top:157px;
+}
+
+.cube {
+    @include forms (21.91px,22.79px,3px,$basCLR,9.64px);
+    box-shadow: 0px 20px 35px rgba(190, 204, 215, 0.25);
+}
+
+.cube__img {
+    width:12,5px;
+    height:13px;
+    margin: 5px;
+}
+
+.line__three {
+    @include forms (60.48px,7.01px,2px,$basCLR,0 0 0 41.19px);
+    position: absolute;  
+    top: 17.53px;
+}
+
+// slash
+.slash {
+    position: relative;
+}
+
+.slash__img {
+    position: absolute;
+    left: 300px;
+    top: -370px;
+}

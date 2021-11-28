@@ -45,3 +45,13 @@
     left: $l;
     top: $t;
 }
+
+
+/*=======CHOOSE=======*/
+@mixin forms ($wi,$he,$br,$bckg,$mr) {
+    width:$wi;
+    height: $he;
+    border-radius: $br;
+    background: $bckg;
+    margin: $mr;
+}
