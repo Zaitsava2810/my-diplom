@@ -16,3 +16,37 @@
     margin-top: 15px;
     margin-bottom: 90px;
 }
+
+
+.choose__inner {
+    width: 450px;
+    height: 396px;
+    position: relative;
+    z-index: 1;
+}
+
+.element__one {
+    width: 170px;
+    height: 32.13px;
+    background: $bcg3;
+    border-radius: 10px 10px 0 0;
+
+    position: absolute;
+    left: 140px;
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.elmnt__circle:first-child {
+    @include circle (9.81px,9.64px,100%,$CLR,11.24px 8.17px 0 17.98px);
+}
+
+.elmnt__circle:nth-child(2) {
+    @include circle (9.81px,9.64px,100%,$CLR3,11.24px 8.17px 0 0);
+}
+
+.elmnt__circle:nth-child(3) {
+    @include circle (9.81px,9.64px,100%,$CLR4,11.24px 0 0 0);
+}
