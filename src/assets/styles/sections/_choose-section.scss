@@ -1,0 +1,18 @@
+.choose {
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.title {
+    @include text__hero ('Circular Std',normal,900,52px,66px);
+    text-align: center;
+    color: $mainCLR;
+}
+
+.subtitle {
+    @include text__hero ('Circular Std',normal,450,18px,23px);
+    text-align: center;
+    color: $clrSUB;
+    margin-top: 15px;
+    margin-bottom: 90px;
+}
