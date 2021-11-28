@@ -24,3 +24,24 @@
     box-shadow: 0px 15px 25px rgba(228, 65, 119, 0.281);;
     border-radius: 10px;
 }
+
+
+/*=======HERO=======*/
+@mixin text__hero ($ff,$fst,$fw,$fs,$lh) {
+    font-family: $ff;
+    font-style: $fst;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height:$lh;
+}
+
+@mixin figure ($wi,$he,$br,$bckg,$dis,$pos,$l,$t){
+    width: $wi;
+    height: $he;
+    border-radius: $br;
+    background:$bckg;
+    display: $dis;
+    position: $pos;
+    left: $l;
+    top: $t;
+}
