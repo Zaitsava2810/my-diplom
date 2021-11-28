@@ -20,8 +20,25 @@
 .slide__img {
     margin-top: 39px;
     transition: all 0.5s ease;
- }
+}
  
  .slide__img:hover {
     transform: scale(1.2);
- }
+}
+
+.nav__slider {
+    @include customFlex;
+    width: 110px;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+}
+
+.nav__elmnt {
+    @include forms (13px,13px,100%,$navslide,0);
+}
+
+.active:hover {
+    background-color: $CLR5;
+    transform: scale(1.3)
+}
