@@ -18,16 +18,21 @@
 .apps__btn {
     display: flex;
     flex-direction: row;
-    text-align: center;
+    align-items: center;
 }
 
 .btn__apps {
-    @include forms (213px,60px,10px,$basCLR,0);
+    @include text__hero ('Circular Std', normal, 700, 20px, 25.3px); 
+    padding: 18px 51.5px;
+    border-radius: 10px;
     box-shadow: 0px 10px 30px rgba(210, 214, 225, 0.45);
+    background: $basCLR;
+    color: $CLR;
 }
 
 .active__apps {
-    background: #9166F0;
+    color: $basCLR;
+    background: $CLR;
     box-shadow: 0px 10px 30px rgba(145, 102, 240, 0.35);
     margin-left: 32px;
 }
