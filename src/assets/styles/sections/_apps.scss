@@ -1,0 +1,16 @@
+.apps__content {
+    width: 600px;
+    margin-bottom: 383px;
+}
+
+.title__apps {
+    @include text__hero ('Circular Std', normal, 900, 52px, 66px); 
+    color: $mainCLR;
+}
+
+.subtitle__apps {
+    @include text__hero ('Circular Std', normal, 450, 18px, 23px); 
+    color: $clrSUB;
+    margin-top: 45px;
+    margin-bottom: 49px;
+}
