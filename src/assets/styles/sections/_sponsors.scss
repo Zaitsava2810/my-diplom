@@ -1,0 +1,44 @@
+.sponsors {
+    margin-bottom: 327px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px rgba(193, 201, 205, 0.25);
+}
+
+.slide {
+    @include forms (210px,100px,5px,$basCLR, 0 30px 0 0);
+    max-width: 250px;
+    min-width: 210px;
+    box-shadow: 0px 15px 25px rgba(193, 201, 205, 0.25);
+}
+
+.slide__img {
+    margin-top: 39px;
+    transition: all 0.5s ease;
+}
+ 
+ .slide__img:hover {
+    transform: scale(1.2);
+}
+
+.nav__slider {
+    @include customFlex;
+    width: 110px;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+}
+
+.nav__elmnt {
+    @include forms (13px,13px,100%,$navslide,0);
+}
+
+.active:hover {
+    background-color: $CLR5;
+    transform: scale(1.3)
+}
