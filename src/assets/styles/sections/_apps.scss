@@ -47,15 +47,10 @@
     right: 195px;
 }
 
-.phone {
-    position: relative;
-}
 
 .phone__element {
     @include forms (550px,550px,100%,$phone,0);
-    position: absolute;
-    right: 0px;
-    top: -800px;
+    position: relative;
 }
 
 .phone__img {
