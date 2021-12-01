@@ -1,0 +1,54 @@
+.support {
+    background: $CLR5;
+    margin-top: 200px;
+    padding: 130px 0 130px 0;
+    position: relative;
+}
+
+.support__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support__item {
+    width: 760px;
+}
+
+.support__title {
+    @include text__hero ('Circular Std',normal,900,52px,66px);
+    color: $basCLR;
+}
+
+.support__subtitle {
+    @include text__hero ('Circular Std',normal,450,18px,23px);
+    color: $basCLR;
+    margin-top: 25px;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 373px;
+}
+
+.support__btn {
+    position: relative;
+}
+
+.sup__btn {
+    @include text__hero ('Circular Std',normal,500,16px,20px);
+    padding: 20px 52px;
+    background: $basCLR;
+    box-shadow: 0px 10px 25px rgba(99, 45, 219, 0.4);
+    border-radius: 10px;
+    color: $bcg6;
+}
+
+.sup__img {
+    position: absolute;
+    left: 15px;
+    top: 18px;
+}
