@@ -23,7 +23,7 @@ footer {
 }
 
 .foot__link {
-    @include text__hero ('Circular Std',normal,450,16px,20px);    font-family: 'Circular Std';
+    @include text__hero ('Circular Std',normal,450,16px,20px);   
     text-align: center;
     text-decoration: none;
     color: $clrSUB;
@@ -34,4 +34,18 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-left: 360px;
+}
+
+.line__five {  
+    margin-top: 50px;
+    width: 1410px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.footer__text {
+    @include text__hero ('Circular Std',normal,450,14px,18px);   
+    text-align: center;
+    color: $clrSUB;;
+    margin-top: 35px;
 }
