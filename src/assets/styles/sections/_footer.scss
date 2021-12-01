@@ -10,3 +10,16 @@ footer {
     align-items: center;
 }
 
+.footer__nav {
+    @include customFlex;
+    align-items: center;
+    width: 440px;
+    margin-left: 366px;
+}
+
+.foot__link {
+    @include text__hero ('Circular Std',normal,450,16px,20px);    font-family: 'Circular Std';
+    text-align: center;
+    text-decoration: none;
+    color: $clrSUB;
+}
