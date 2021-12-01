@@ -1,3 +1,29 @@
 .featurus {
     margin-top: 200px;
 }
+
+.cards {
+    @include customFlex;
+}
+
+.cards__item {
+    width: 330px;
+    height: 300px;
+    text-align: center;
+}
+
+.cards__item:first-child {
+    background: $bckIT1;
+}
+
+.cards__item:nth-child(2) {
+    background: $bckIT2;
+}
+
+.cards__item:nth-child(3) {
+    background: $bckIT3;
+}
+
+.cards__item:nth-child(4) {
+    background: $bckIT4;
+}
