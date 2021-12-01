@@ -3,6 +3,11 @@ footer {
     padding: 145px 0 139px 0;
 }
 
+.footer__information {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer__content {
     position: relative;
     display: flex;
@@ -22,4 +27,11 @@ footer {
     text-align: center;
     text-decoration: none;
     color: $clrSUB;
+}
+
+.networks {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 360px;
 }
