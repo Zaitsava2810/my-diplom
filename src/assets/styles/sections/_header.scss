@@ -34,14 +34,14 @@ header {
     color: $CLR;
 }
 
-.active {
+.active__nav {
     @include text('Circular Std',bold,18px,23px,center);
     color: $mainCLR;
     width: 57px;
     margin-left: 172px;
 }
 
-.active:hover {
+.active__nav:hover {
     color: $CLR;
 }
 
