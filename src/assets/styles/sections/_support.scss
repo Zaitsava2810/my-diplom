@@ -34,6 +34,10 @@
     height: 373px;
 }
 
+.support__btn {
+    position: relative;
+}
+
 .sup__btn {
     @include text__hero ('Circular Std',normal,500,16px,20px);
     padding: 20px 52px;
@@ -41,4 +45,10 @@
     box-shadow: 0px 10px 25px rgba(99, 45, 219, 0.4);
     border-radius: 10px;
     color: $bcg6;
+}
+
+.sup__img {
+    position: absolute;
+    left: 15px;
+    top: 18px;
 }
