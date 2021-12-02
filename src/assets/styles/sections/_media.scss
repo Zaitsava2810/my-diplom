@@ -32,9 +32,27 @@
         height: 650px;
         top: -100px;
         left: -100px;
+    }    
+}
+
+@media screen and (max-width: 1680px) {
+    .figure__3 {
+        @include figure (110px,110px,100%,$grad2,block,absolute,1350px,235.02px);
     }
 
+    .works__inner {
+        margin-top: -400px;
+        margin-left: 100px;
+    }
 
+    .inner__element {
+        @include forms (450px,450px,100%,$CLRhover,0)
+    }
 
-    
+    .inner__photo {
+        width: 550px;
+        height: 550px;
+        top: -100px;
+        left: -90px;
+    }   
 }
