@@ -1,0 +1,40 @@
+@media screen and (max-width: 1680px) {
+    .hero__description {
+        margin: -100px 0 0 150px;
+    }
+
+    .hero__img {
+        max-width: 600px;
+        top: 50px;
+    }
+
+    .figure__1 {
+        @include figure (80px,80px,100%,$grad,block,absolute,78px,140px); 
+    }
+
+    .figure__4 {
+        width: 120px;
+        height: 120px;
+        left: 1150px;
+        top: 200px;
+    }
+
+    .figure__3 {
+        @include figure (110px,110px,100%,$grad2,block,absolute,1500.89px,235.02px);
+    }
+
+    .inner__element {
+        @include forms (550px,550px,100%,$CLRhover,0)
+    }
+
+    .inner__photo {
+        width: 650px;
+        height: 650px;
+        top: -100px;
+        left: -100px;
+    }
+
+
+
+    
+}
