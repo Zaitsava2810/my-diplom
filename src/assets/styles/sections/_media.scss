@@ -877,3 +877,30 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    // featurus 
+    .cards__item {
+        height: 150px;
+    }
+
+    .text__item {
+        @include text__hero ('Circular Std',normal,bold,14px,35px);
+        margin-top: 5px;
+    }
+
+    // support
+    .support__title {
+        @include text__hero ('Circular Std',normal,900,24px,40px);
+    }
+    
+    .support__subtitle {
+        @include text__hero ('Circular Std',normal,450,14px,20px);
+        width: 350px;
+    }
+
+    .sup__btn {
+        @include text__hero ('Circular Std',normal,500,12px,14px);
+        padding: 15px 20px;
+        width: 130px;
+    }
+}
