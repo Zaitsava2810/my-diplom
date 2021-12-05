@@ -247,8 +247,7 @@
     // footer 
     .networks {   
         margin-left: 150px;
-    }
-       
+    }  
 }
 
 @media screen and (max-width: 1290px) {
@@ -264,8 +263,7 @@
     .figure__4 {
         left: 880px;
         top: 120px;
-    }
-       
+    }  
 }
 
 @media screen and (max-width: 1250px) {
@@ -277,4 +275,74 @@
     .works__subtitle {
         @include text__hero ('Circular Std',normal,500,14px,20px);    
     }      
+}
+
+@media screen and (max-width: 1230px) {
+    // hero section 
+    .hero__title {
+    @include text__hero ('Circular Std',normal,900,60px,70px);        
+    }
+        
+    .hero__subtitle {
+    @include text__hero ('Circular Std',normal,450,14px,22px);
+    margin-top: 10px;
+    }
+
+    .hero__img {
+        max-width: 500px;
+    }
+
+    .hero__img {
+        top: 150px;
+    }
+
+    .figure__2 {
+        display: none
+    }
+
+    .figure__3 {
+        display: none;
+    }
+
+    .figure__4 {
+        width: 90px;
+        height: 90px;
+        top: 130px;     
+    }
+
+    // works section
+    .works__item {
+        width: 550px;
+        margin-left: 660px;
+    }
+
+    .works__subtitle {
+        @include text__hero ('Circular Std',normal,500,14px,20px);    
+    }    
+    
+    .works__inner {
+        margin-left: 110px;
+    }
+
+    .inner__element {
+        @include forms (450px,450px,100%,$CLRhover,0)
+    }
+    
+    .inner__photo {
+        width: 510px;
+        height: 550px;
+        top: -100px;
+        left: -60px;
+    }
+
+    // featurus
+    .cards__item {
+        width: 330px;
+        height: 290px;
+    }
+
+    // footer
+    .footer__nav {
+        margin-left: 250px;
+    }
 }
