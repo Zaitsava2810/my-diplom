@@ -207,8 +207,27 @@
     .support__btn {
         margin-right: 100px;
     }
-    
-    
-
 }
+
+@media screen and (max-width: 1390px) {
+    // sponsors section 
+    .wrap {
+        box-shadow: none;
+        justify-content: center;
+    }
+
+    .slide {
+        box-shadow: 0px 15px 25px rgba(193, 201, 205, 0.25);
+    }
+
+    .slide:nth-child(6) {
+        display: none;
+    }
+
+    // footer 
+    .networks {
+        margin-left: 250px;
+    }
+}
+
 
