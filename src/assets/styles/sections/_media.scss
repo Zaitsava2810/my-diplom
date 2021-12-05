@@ -346,3 +346,29 @@
         margin-left: 250px;
     }
 }
+
+@media screen and (max-width: 1180px) {
+    // header
+    .nav__link {
+        @include text('Circular Std',450,16px,20px,center);       
+    }
+
+    // choose section
+    .inner__title {
+        @include text__hero ('Circular Std',normal,bold,24px,40px);
+    }
+    
+    .inner__subtitle {
+        @include text__hero ('Circular Std',normal,450,14px,20px);
+        margin-top: 10px; 
+    }
+
+    .slash__img {
+        width: 700px;
+    }
+
+    // apps section
+    .phone__element {
+        right: 50px;
+    }
+}
