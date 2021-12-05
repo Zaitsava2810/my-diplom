@@ -230,4 +230,10 @@
     }
 }
 
-
+@media screen and (max-width: 1360px) {
+    .cards__item {
+        width: 280px;
+        height: 280px;
+        margin: 0 40px;
+    }
+}
