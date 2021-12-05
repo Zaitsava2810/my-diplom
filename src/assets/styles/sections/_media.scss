@@ -971,3 +971,44 @@
     }   
 
 }
+
+@media screen and (max-width: 650px) {
+    // choose section
+    .choose__item {
+        margin-left: 130px;
+    }
+
+    // sponsors section
+    .wrap, .nav__slider {
+        display: none;
+    }
+
+    // apps section
+    .content {
+        margin-top: -250px;
+    }
+
+    // featurus section
+    .cards {
+        margin-left: 200px;
+    }
+
+    // support section
+    .support__btn {
+        margin-right: 40px;
+    }
+
+    // footer
+    .footer__nav {
+        width: 300px;
+        margin-left: 120px;
+    }
+    
+    .foot__link {
+        @include text__hero ('Circular Std',normal,450,10px,12px);   
+    }
+
+    .footer__text {
+        @include text__hero ('Circular Std',normal,450,12px,12px);   
+    }
+}
