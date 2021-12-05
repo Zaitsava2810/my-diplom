@@ -651,21 +651,8 @@
         right: 100px;
     }
 
-    // featurus 
-    .cards__item {
-        width: 250px;
-        height: 160px;
-    }
+    
 
-    .text__item {
-        @include text__hero ('Circular Std',normal,bold,16px,22px);
-        margin-top: 15px;
-    }
-
-    .cards__item svg {
-        margin-top: 25px;
-        width: 50px
-     }
 
     // footer
     .foot__link {
@@ -841,3 +828,28 @@
         margin-left: 100px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    // apps section
+    .content, .apps__btn {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    // sponsors section 
+    .slide:nth-child(4) {
+        display: none;
+    }
+
+    
+    // featurus 
+    .cards__item {
+        width: 280px;
+        height: 150px;
+    }
+}
+    
