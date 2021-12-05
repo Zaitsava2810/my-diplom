@@ -79,8 +79,28 @@
         margin-left: 100px;
     }
 
-    .hero__img {
-        max-width: 600px;
-        right: 50px;
+    .hero__title {
+        @include text__hero ('Circular Std',normal,900,76px,90px);  
     }
+
+    .hero__img {
+        right: 120px;
+    }
+
+    .figure__2 {
+        left: 1200px;
+        top: 120px;
+    }
+
+    .figure__3 {
+        left: 1200px;
+        top: 200px;
+    }
+
+    .figure__4 {
+        left: 950px;
+        top: 150px;
+    }
+
 }
+
