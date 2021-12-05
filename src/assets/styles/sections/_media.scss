@@ -587,3 +587,88 @@
         @include text__hero ('Circular Std',normal,450,14px,20px);   
     }
 }
+
+@media screen and (max-width: 1060px) {
+    // hero section
+    .hero__title {
+        @include text__hero ('Circular Std',normal,900,50px,60px);        
+    }
+        
+    .hero__subtitle {
+        @include text__hero ('Circular Std',normal,450,15px,23px);
+    }
+
+    .hero__img {
+        max-width: 420px;
+    }
+
+    .figure__4 {
+        width: 70px;
+        height: 70px;
+    }  
+
+    .hero__text {
+        @include text__hero ('Circular Std',normal,500,14px,18px);
+        margin-left: 15px;
+    }
+
+    // works section
+    .works {
+        margin-bottom: 150px;
+    }
+
+    .line__foure {
+        margin-bottom: 150px;
+    }
+
+    .inner__element {
+        @include forms (330px,330px,100%,$CLRhover,0)
+    }
+    
+    .inner__photo {
+        width: 400px;
+        height: 400px;
+        top: -70px;
+        left: -65px;
+    }
+
+    // support section
+    .support__btn {
+        margin-right: 50px;
+    }
+
+    // apps section 
+    .btn__apps {
+        @include text__hero ('Circular Std', normal, 700, 16px, 22px); 
+        padding: 15px 30px;
+    }
+
+    .apps__img {
+        display: none;
+    }
+
+    .phone__element {
+        right: 100px;
+    }
+
+    // featurus 
+    .cards__item {
+        width: 250px;
+        height: 160px;
+    }
+
+    .text__item {
+        @include text__hero ('Circular Std',normal,bold,16px,22px);
+        margin-top: 15px;
+    }
+
+    .cards__item svg {
+        margin-top: 25px;
+        width: 50px
+     }
+
+    // footer
+    .foot__link {
+        @include text__hero ('Circular Std',normal,450,14px,20px);   
+    }
+}
