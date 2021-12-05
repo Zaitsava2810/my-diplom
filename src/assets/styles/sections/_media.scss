@@ -290,9 +290,6 @@
 
     .hero__img {
         max-width: 500px;
-    }
-
-    .hero__img {
         top: 150px;
     }
 
@@ -371,4 +368,102 @@
     .phone__element {
         right: 50px;
     }
+}
+
+@media screen and (max-width: 1140px) {
+    // hero section
+    .figure__4 {
+        left: 800px;
+    }  
+
+    .hero__img {
+        max-width: 500px;
+        right: 230px;
+    }
+
+    // choose section
+    .title {
+        @include text__hero ('Circular Std',normal,900,36px,50px);
+    }
+    
+    .subtitle {
+        @include text__hero ('Circular Std',normal,450,14px,22px);
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+    
+    .element__two, .element__one {
+        left: 100px;
+    }
+
+    .circle__card {
+        left: 80px;    
+    } 
+    
+    .mini__circle {
+    right:110px;
+    }
+
+    .card, .card__mini {
+        left: 115px; 
+    }
+
+    .slash__img {
+        width: 720px;
+        left: 150px;
+    }
+    
+    // works section
+    .works__item {
+        margin-left: 600px;
+    }
+
+    .works__title {
+        @include text__hero ('Circular Std',normal,900,36px,50px);    
+    }
+    
+    .works__subtitle {
+        @include text__hero ('Circular Std',normal,500,14px,22px);    
+    }
+
+    .works__inner {
+        margin-top: -460px;
+    }
+
+    .inner__element {
+        @include forms (400px,400px,100%,$CLRhover,0)
+    }
+    
+    .inner__photo {
+        width: 500px;
+        height: 520px;
+        top: -120px;
+        left: -85px;
+    }
+
+    // sponsors section 
+    .slide:nth-child(5) {
+        display: none;
+    }
+
+    // apps section 
+    .title__apps {
+        @include text__hero ('Circular Std', normal, 900, 36px, 50px); 
+    }
+    
+    .subtitle__apps {
+        @include text__hero ('Circular Std', normal, 450, 14px, 22px); 
+        margin-top: 25px;
+    }
+
+    .phone__element {
+        @include forms (350px,350px,100%,$phone,0);
+        right: 120px;
+    }
+
+    .phone__img {
+        height: 400px;
+        left: 85px;
+    }
+
 }
