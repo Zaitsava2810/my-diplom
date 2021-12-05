@@ -651,9 +651,6 @@
         right: 100px;
     }
 
-    
-
-
     // footer
     .foot__link {
         @include text__hero ('Circular Std',normal,450,14px,20px);   
@@ -859,3 +856,24 @@
         margin-left: 30px;
     }  
 }
+
+@media screen and (max-width: 840px) {
+    // works section
+    .works__inner {
+       display: none;
+    }  
+
+    .works__item {
+        margin-left:250px;
+    }
+
+    // footer
+    .footer__nav {
+        margin-left:80px;
+    }
+
+    .networks {
+        display: none;
+    }
+}
+
