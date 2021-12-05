@@ -728,3 +728,38 @@
         margin-left: 150px;
     }
 }
+
+@media screen and (max-width: 990px) {
+    // header 
+    .active__nav {
+        margin-left: 100px;
+    }  
+
+    // hero section
+    .hero__img {
+        right: 300px;
+        top: 180px;
+    }
+
+    .figure__4 {
+        left: 690px;
+    }  
+
+    // hero section
+    .circle {
+        display: none;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+    .hero__text {
+        display: none;
+    }
+
+    // apps section
+    .phone__element {
+        right: 50px;
+    }
+}
