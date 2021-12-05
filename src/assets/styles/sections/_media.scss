@@ -1130,3 +1130,40 @@
         margin-left: 70px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    // choose section
+    .choose__item {
+        margin-left: 55px;
+    }
+
+    // works section
+    .works__item {
+        margin-left:40px;
+    }
+
+    // featurus section
+    .cards {
+        margin-left: 120px;
+    }
+
+    // support section
+    .support__title {
+        @include text__hero ('Circular Std',normal,900,16px,20px);
+    }
+    
+    .support__subtitle {
+        @include text__hero ('Circular Std',normal,450,12px,14px);
+        width: 250px;
+    } 
+
+    .sup__btn {
+        @include text__hero ('Circular Std',normal,500,10px,10px);
+    }
+
+     // footer
+    .footer__nav {
+        width: 250px;
+        margin-right: 250px;
+    }
+}
