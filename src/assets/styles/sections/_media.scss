@@ -267,3 +267,14 @@
     }
        
 }
+
+@media screen and (max-width: 1250px) {
+    // works section
+    .works__item {
+        width: 550px;
+    }
+
+    .works__subtitle {
+        @include text__hero ('Circular Std',normal,500,14px,20px);    
+    }      
+}
