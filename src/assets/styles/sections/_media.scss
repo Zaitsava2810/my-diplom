@@ -237,3 +237,17 @@
         margin: 0 40px;
     }
 }
+
+@media screen and (max-width: 1330px) {
+    // works section
+    .works__item {
+        margin-left: 710px;
+    }
+
+    // footer 
+    .networks {   
+        margin-left: 150px;
+    }
+       
+}
+
