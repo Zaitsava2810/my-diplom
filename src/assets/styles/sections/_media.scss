@@ -773,3 +773,71 @@
         width: 300px;    
     }
 }
+
+@media screen and (max-width: 920px) {
+    // hero section
+    .hero__description {
+        text-align: center;
+    }
+
+    .hero__btn {
+        justify-content:center;
+    }
+
+    .hero__img {
+        display: none;
+    }
+
+    .figure__4 {
+        display: none;
+    }  
+
+    // choose section
+    .choose {
+        margin-bottom: 80px;
+    }
+
+    .choose__item {
+        flex-direction: column;
+        margin-left: 250px;
+    }
+
+    .inner__text {
+       margin-right: 70px;
+    }
+
+    .mini__circle {
+        left: 220px;
+    }
+
+    .slash {
+        display: none;
+    }    
+
+    // works section
+    .works__item {
+        margin-left: 460px;
+    }
+
+    .line__foure {
+        margin-bottom: 110px;   
+    }
+
+    .works__inner {
+        margin-left: 70px;
+    }
+
+    // apps section 
+    .apps__content {
+        margin-left: 20px;
+    }
+
+    // footer
+    .footer__nav {
+        margin-left: 100px;
+    }
+
+    .networks {
+        margin-left: 100px;
+    }
+}
