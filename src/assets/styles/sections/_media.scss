@@ -1167,3 +1167,122 @@
         margin-right: 250px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    // hero section
+    .hero__description {
+        margin-left: 20px;
+    }
+ 
+    .hero__title {
+        @include text__hero ('Circular Std',normal,900,30px,40px);                 
+    }
+        
+    .hero__subtitle {
+        width: 300px;
+        margin-left: 60px;
+    }
+
+    .btn {
+        @include text ('Circular Std',500,10px,10px,center);
+        padding: 10px 10px;
+        width: 210px;
+    }
+            
+    // choose section
+    .title {
+        @include text__hero ('Circular Std',normal,900,22px,50px);
+    }
+
+    .subtitle {
+        width: 300px;
+        @include text__hero ('Circular Std',normal,450,12px,20px);
+        margin-left: 70px;
+    }
+    
+    .choose__item {
+        margin-left: 30px;
+    }
+
+    .inner__title {
+        @include text__hero ('Circular Std',normal,bold,18px,40px);
+    }
+    
+    .inner__subtitle {
+        @include text__hero ('Circular Std',normal,450,12px,18px);
+    }
+
+
+    // works section
+    .works__title {
+        @include text__hero ('Circular Std',normal,900,22px,50px);    
+    }
+    
+    .works__subtitle {
+        width: 300px;
+        @include text__hero ('Circular Std',normal,500,12px,20px);    
+    }
+
+    .works__item {
+        margin-left:40px;
+    }
+
+    .keys__img {
+        @include forms (40px,40px,100%,$bcg6,0);   
+        position: absolute;
+        top: 0px;
+    }
+
+    .keys__photo {
+        height: 16px;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+
+    .keys__text {
+        margin-left: 60px;
+    }
+
+    .keys__subtitle {
+        width: 200px;
+    }
+    
+    .line__keys {
+        top: 45px;
+        left: 20px;
+    }
+
+    // apps section
+    .title__apps {
+        @include text__hero ('Circular Std', normal, 900, 22px, 50px); 
+    }
+    
+    .subtitle__apps {
+        @include text__hero ('Circular Std', normal, 450,12px, 20px); 
+    }
+
+    .btn__apps {
+        @include text__hero ('Circular Std', normal, 700, 12px, 12px); 
+        padding: 15px 15px;   
+    }
+
+    // featurus section
+    .cards {
+        margin-left: 100px;
+    }
+
+    // support section
+    .support__title {
+        @include text__hero ('Circular Std',normal,900,18px,20px);
+    }
+    
+    .support__subtitle {
+        @include text__hero ('Circular Std',normal,450,12px,20px);
+        width: 250px;
+    } 
+
+     // footer
+     .footer__nav {
+        margin-right: 350px;
+    }
+}
