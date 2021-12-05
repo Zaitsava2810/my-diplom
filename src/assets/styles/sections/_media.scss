@@ -672,3 +672,59 @@
         @include text__hero ('Circular Std',normal,450,14px,20px);   
     }
 }
+
+@media screen and (max-width: 1020px) {
+    // hero section
+    .hero__img {
+        max-width: 400px;
+    }
+
+    // choose section
+    .inner__title {
+        @include text__hero ('Circular Std',normal,bold,24px,26px);
+    }
+    
+    .inner__subtitle {
+        @include text__hero ('Circular Std',normal,450,14px,20px);
+    }
+
+    // works section
+    .works__title {
+        @include text__hero ('Circular Std',normal,900,36px,50px);    
+    }
+    
+    .works__subtitle {
+        @include text__hero ('Circular Std',normal,500,14px,20px);    
+        margin-top: 15px;
+    }
+    
+    .works__item {
+        width: 430px;
+        margin-left: 520px;
+    }
+
+    // sponsors section
+    .slide {
+        @include forms (170px,80px,5px,$basCLR, 0 30px 0 0);
+        max-width: 210px;
+        min-width: 200px;
+    }
+
+    .nav__elmnt {
+        @include forms (8px,8px,100%,$navslide,0);
+    }
+
+    // support section
+    .support__btn {
+        margin-right: 80px;
+    }
+
+    .sup__btn {
+        text-align: center;
+    }
+
+    // footer
+    .footer__nav {
+        margin-left: 150px;
+    }
+}
