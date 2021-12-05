@@ -1012,3 +1012,81 @@
         @include text__hero ('Circular Std',normal,450,12px,12px);   
     }
 }
+
+@media screen and (max-width: 600px) {
+    // hero section 
+    .hero__title {
+        @include text__hero ('Circular Std',normal,900,40px,50px);                 
+    }
+        
+    .hero__subtitle {
+        @include text__hero ('Circular Std',normal,450,14px,24px);
+    }
+
+    .hero__btn {
+        margin-left: 45px;
+    }
+            
+    // choose section
+    .title {
+        @include text__hero ('Circular Std',normal,900,28px,50px);
+    }
+
+    .subtitle {
+        @include text__hero ('Circular Std',normal,450,14px,20px);;
+    }
+    
+    .choose__item {
+        margin-left: 100px;
+    }
+
+    // works section
+    .works__title {
+        @include text__hero ('Circular Std',normal,900,28px,50px);    
+    }
+    
+    .works__subtitle {
+        @include text__hero ('Circular Std',normal,500,14px,20px);    
+    }
+
+    .works__item {
+        margin-left:120px;
+    }
+
+    // sponsors section
+    .wrap, .nav__slider {
+        display: none;
+    }
+
+    // apps section
+    .title__apps {
+        @include text__hero ('Circular Std', normal, 900, 28px, 50px); 
+    }
+    
+    .subtitle__apps {
+        @include text__hero ('Circular Std', normal, 450,14px, 20px); 
+    }
+
+    // featurus section
+    .cards {
+        margin-left: 180px;
+    }
+
+    // support section
+    .support__item {
+        margin-left: 10px;
+    }
+
+    .support__title {
+        @include text__hero ('Circular Std',normal,900,20px,20px);
+    }
+    
+    .support__subtitle {
+        @include text__hero ('Circular Std',normal,450,14px,20px);
+        width: 350px;
+    } 
+
+    .support__btn {
+        margin-right: 30px;
+    }
+}
