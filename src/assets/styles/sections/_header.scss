@@ -59,3 +59,17 @@ header {
     color:  $CLR;
     padding: 16px 33px;
 }
+
+.burger {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line__burger {
+    width: 100%;
+    height: 3px;
+    background-color:$CLR;
+}

@@ -904,3 +904,42 @@
         width: 130px;
     }
 }
+
+@media screen and (max-width: 760px) {
+    // header
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    // choose section
+    .choose__item {
+        margin-left: 180px;
+    }
+
+    // works section 
+    .works__item {
+        margin-left:200px;
+    }
+
+    // sponsors
+    .wrap {
+        margin-left: 20px;
+    }
+
+    .nav__slider {
+        margin-left: -50px;
+    }
+
+    // featurus 
+    .cards__item {
+        height: 200px;
+    }   
+
+}
+
