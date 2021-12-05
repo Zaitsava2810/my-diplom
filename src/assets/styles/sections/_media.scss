@@ -467,3 +467,25 @@
     }
 
 }
+
+@media screen and (max-width: 1110px) {
+    // header
+    .nav__link {
+        @include text('Circular Std',450,14px,20px,center);       
+    }
+
+    .nav__item {
+        margin-left: 50px;
+    }
+
+    .nav__btn {
+        @include text('Circular Std',500,14px,20px,center);
+        padding: 12px 15px;
+        width: 100px;
+    }
+
+    .logo__img {
+        margin-left: 10px;
+        width: 90px;
+    }
+}
