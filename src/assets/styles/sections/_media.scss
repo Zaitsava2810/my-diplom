@@ -1090,3 +1090,43 @@
         margin-right: 30px;
     }
 }
+
+@media screen and (max-width: 530px) {
+    // choose section
+    .subtitle {
+        width: 400px;
+        @include text__hero ('Circular Std',normal,450,14px,20px);
+        margin-left: 50px;
+    }
+    
+    .choose__item {
+        margin-left: 65px;
+    }
+
+    // works section
+    .works__item {
+        margin-left:80px;
+    }
+
+    // apps section
+    .subtitle__apps {
+        @include text__hero ('Circular Std', normal, 450,12px, 20px); 
+        margin-top: 10px;
+    }
+
+    // featurus section
+    .cards {
+        margin-left: 140px;
+    }
+
+    // support section
+    .sup__btn {
+        padding: 10px 10px;
+        width: 100px;
+    }
+
+     // footer
+     .footer__nav {
+        margin-left: 70px;
+    }
+}
