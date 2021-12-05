@@ -1286,3 +1286,74 @@
         margin-right: 350px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    // hero section
+    .hero__description {
+        margin-left: 20px;
+    }
+  
+    .hero__subtitle {
+        @include text__hero ('Circular Std',normal,450,12px,24px);
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    .btn {
+        @include text ('Circular Std',500,10px,10px,center);
+        padding: 10px 10px;
+        width: 210px;
+    }
+            
+    // choose section
+    .subtitle {
+        width: 250px;
+        margin-left: 20px;
+    }
+    
+    .choose__item {
+        margin-left: -42px;
+    }
+
+    // works section
+    .works__subtitle {
+        width: 250px;
+    }
+
+    .works__item {
+        margin-left:20px;
+    }
+
+    .keys__title {
+        width: 250px;
+    }  
+    
+    .keys__item {
+    margin-top: 40px;
+    }  
+ 
+
+    // featurus section
+    .cards {
+        margin-left: 30px;
+    }
+
+    // support section
+    .support__subtitle {
+        width: 180px;
+    } 
+
+    // footer
+    .logo__img {
+        width: 70px;
+    }
+
+    .foot__link {
+        @include text__hero ('Circular Std',normal,450,8px,20px);   
+    }
+    
+    .footer__nav {
+        width: 200px;
+        margin-left: 10px;
+    }
+}
