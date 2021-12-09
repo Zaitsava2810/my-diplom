@@ -9,7 +9,7 @@
     }
 
     &__title {
-        @include text__hero ('Circular Std',normal,900,96px,110px);
+@include text__hero ('Circular Std',normal,900,96px,110px);        
         color: $mainCLR;
     }
 
